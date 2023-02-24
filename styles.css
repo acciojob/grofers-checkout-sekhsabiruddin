@@ -1,2 +1,23 @@
-
-/* Your CSS Code here. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid #1f0202;
+}
+#total {
+  border: none !important;
+  text-align: right;
+  font-size: 1.5rem;
+}
+#result {
+  border: none !important;
+  text-align: center;
+  font-size: 1.5rem;
+}

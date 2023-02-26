@@ -7,7 +7,7 @@ const getSum = () => {
   //Add your code here
   //   let price = document.getElementsByClassName("price");
   let price = document.querySelectorAll(".price");
-  console.log(price);
+
   price.forEach((ele) => {
     ans += parseInt(ele.innerHTML);
   });
